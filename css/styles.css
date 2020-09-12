@@ -1,0 +1,162 @@
+#title{
+  background-color: #ff4c68;
+}
+
+body{
+  font-family:'Montserrat', sans-serif;
+  font-weight: normal;
+}
+h1{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  margin: 0 18px;
+}
+
+/* Download buttons */
+
+.download-btn{
+  margin: 3% 5% 3% 0;
+}
+
+/* Title-Image */
+
+#mainimg{
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  width: 60%;
+}
+
+/* features */
+
+#features{
+  color: #8f8f8f;
+  text-align: center;
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+  top: 30%;
+}
+
+.featurebox{
+  padding: 5%;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  margin: 1rem 0;
+}
+.fasedit{
+  color: #ef8172;
+}
+.fasedit:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.testimonials-image{
+  padding: 20px;
+  border-radius: 100%;
+  width: 10%;
+}
+.carousel-item{
+  padding:  7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-image{
+  width: 15%;
+  padding: 2%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.card-edit{
+  padding: 3% 2%;
+}
+
+/* cta */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* footer */
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+/*
+.footerpg{
+  color:
+} */
+
+.social-icons{
+  margin: 20px 10px;
+}
+
+
+
+
+/* @media query */
+
+@media (max-width:990px) {
+  #title{
+    text-align: center;
+    position: relative;
+  }
+  #mainimg{
+    transform: rotate(0);
+    width: 40%;
+    position: static;
+  }
+  #features{
+    background-color: #fff;
+  }
+}
